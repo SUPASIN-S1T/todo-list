@@ -132,6 +132,9 @@ button.del-custom:hover {
 }
 
 @media screen and (max-width: 600px) {
+    h1.heading-text {
+        font-size: 36px;
+    }
     button.del-custom {
         top: -7px;
         right: -9px;
