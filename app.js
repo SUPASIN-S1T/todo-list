@@ -3,7 +3,7 @@ let btnSubmit = document.querySelector(".btn");
 let showDataContainer = document.querySelector(".show-data-list");
 
 function addTodoList() {
-  if (inputText.value.length === 0) {
+  if (inputText.value.length === 0 || inputText.value.trim() === "") {
     alert("pls, input your comment :)");
   } else {
     showDataContainer.style.display = "block";
